@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sasses",
+  "info": {
+    "singularName": "sass",
+    "pluralName": "sasses",
+    "displayName": "sass",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "descripcion": {
+      "type": "text",
+      "required": false
+    },
+    "LinkProyecto": {
+      "type": "string",
+      "required": true
+    },
+    "LinkGit": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

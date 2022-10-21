@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reacts",
+  "info": {
+    "singularName": "react",
+    "pluralName": "reacts",
+    "displayName": "react",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "text",
+      "required": true
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "linkGit": {
+      "type": "string",
+      "required": true
+    },
+    "linkProyecto": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

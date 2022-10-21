@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frontends",
+  "info": {
+    "singularName": "frontend",
+    "pluralName": "frontends",
+    "displayName": "frontend"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "descripcion": {
+      "type": "text"
+    }
+  }
+}

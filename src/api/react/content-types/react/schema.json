@@ -21,12 +21,12 @@
       "required": true
     },
     "imagen": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "linkGit": {
       "type": "string",
@@ -35,6 +35,13 @@
     "linkProyecto": {
       "type": "string",
       "required": true
+    },
+    "tecnologias": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

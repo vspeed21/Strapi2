@@ -35,6 +35,14 @@
     "LinkGit": {
       "type": "string",
       "required": true
+    },
+    "tecnologias": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
     }
   }
 }

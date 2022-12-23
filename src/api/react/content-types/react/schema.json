@@ -4,7 +4,7 @@
   "info": {
     "singularName": "react",
     "pluralName": "reacts",
-    "displayName": "react",
+    "displayName": "Projects",
     "description": ""
   },
   "options": {
@@ -37,11 +37,12 @@
       "required": true
     },
     "tecnologias": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

@@ -4,27 +4,27 @@
   "info": {
     "singularName": "frontend",
     "pluralName": "frontends",
-    "displayName": "frontend"
+    "displayName": "frontend",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "nombre": {
-      "type": "string",
-      "required": true
-    },
-    "imagen": {
+    "imagenes": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
+    },
+    "description": {
+      "type": "richtext"
     },
     "descripcion": {
-      "type": "text"
+      "type": "json"
     }
   }
 }

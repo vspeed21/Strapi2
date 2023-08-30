@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tablas",
+  "info": {
+    "singularName": "tabla",
+    "pluralName": "tablas",
+    "displayName": "tabla"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

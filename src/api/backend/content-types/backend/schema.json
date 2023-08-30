@@ -1,26 +1,31 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "backends",
   "info": {
     "singularName": "backend",
     "pluralName": "backends",
-    "displayName": "Backend"
+    "displayName": "Backend",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "description": {
-      "type": "richtext"
+    "title": {
+      "type": "string",
+      "required": true
     },
-    "images": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": true
+      ]
+    },
+    "tooltip": {
+      "type": "richtext"
     }
   }
 }

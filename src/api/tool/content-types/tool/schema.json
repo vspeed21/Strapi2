@@ -1,27 +1,31 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "tools",
   "info": {
     "singularName": "tool",
     "pluralName": "tools",
-    "displayName": "Tools"
+    "displayName": "Tools",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "images": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true,
+    "title": {
+      "type": "string",
       "required": true
     },
-    "description": {
-      "type": "richtext",
-      "required": true
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tooltip": {
+      "type": "richtext"
     }
   }
 }

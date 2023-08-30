@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "frontends",
   "info": {
     "singularName": "frontend",
@@ -12,17 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "description": {
-      "type": "richtext",
+    "title": {
+      "type": "string",
       "required": true
     },
-    "images": {
+    "image": {
       "type": "media",
-      "multiple": true,
-      "required": true,
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
+    },
+    "tooltip": {
+      "type": "richtext"
     }
   }
 }

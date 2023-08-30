@@ -4,7 +4,8 @@
   "info": {
     "singularName": "service",
     "pluralName": "services",
-    "displayName": "Services"
+    "displayName": "Services",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,21 +16,16 @@
       "type": "string",
       "required": true
     },
-    "subtittle": {
-      "type": "string",
-      "required": true
-    },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
-    "description": {
-      "type": "richtext",
-      "required": true
+    "localeID": {
+      "type": "string"
     }
   }
 }

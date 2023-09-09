@@ -43,6 +43,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "localeIDnombre": {
+      "type": "string"
+    },
+    "localeIDdescripcion": {
+      "type": "string"
     }
   }
 }

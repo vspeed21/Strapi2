@@ -26,6 +26,12 @@
     },
     "localeID": {
       "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "localeIDdescription": {
+      "type": "string"
     }
   }
 }
